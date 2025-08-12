@@ -60,7 +60,7 @@ This is also licensed under the AGPL, so anyone running a hosted version will al
 
 3. **Initialize the database**
    ```bash
-   ./service_cmd create-db
+   ./service_cmd.py create-db
    ```
    This will create a `rss.db` file in the `data/` directory.
 
