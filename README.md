@@ -58,9 +58,8 @@ This is also licensed under the AGPL, so anyone running a hosted version will al
    pip install -r requirements.txt
    ```
 
-3. **Create the data directory and initialize the database**
+3. **Initialize the database**
    ```bash
-   mkdir -p data
    ./service_cmd.py create-db
    ```
    This will create the `data/` directory (if it doesn't exist) and a `rss.db` file within it.
